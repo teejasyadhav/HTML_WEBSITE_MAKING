@@ -1,0 +1,33 @@
+h1{
+  color: #ffffff;
+  stroke: antiquewhite;
+  font-family: sans-serif;
+}
+
+h2{
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  stroke: antiquewhite;
+}
+
+*{
+  border-color: rgb(255, 255, 255);
+}
+.header{
+  background-color: lightskyblue;
+}
+
+.item{
+  flex-direction: column;
+}
+
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.footer{
+  display: flex;
+  justify-content: flex-end;
+}
